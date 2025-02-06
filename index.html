@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaffee gegen Rechts</title>
     <meta property="og:title" content="Kaffee gegen Rechts">
-    <meta property="og:description" content="Kommt vorbei, trinkt mit uns einen Kaffee und setzt gemeinsam ein Zeichen für Demokratie und Menschlichkeit!">
+    <meta property="og:description"
+        content="Kommt vorbei, trinkt mit uns einen Kaffee und setzt gemeinsam ein Zeichen für Demokratie und Menschlichkeit!">
     <meta property="og:image" content="/og.webp">
     <meta property="og:image:alt" content="Banner mit 'Kaffee gegen Rechts' und Aufruf für Demokratie">
     <meta property="og:image:type" content="image/webp">
@@ -16,9 +18,15 @@
     <meta property="og:locale" content="de_DE">
     <script src="/tailwind.js"></script>
 </head>
+
 <body class="flex items-center justify-center h-screen bg-gray-100 flex-col">
-    <h1 class="text-3xl font-bold text-gray-900">Kaffee gegen Rechts</h1>
-    <h2 class="text-2xl font-semibold text-gray-700">für Demokratie</h2>
-    <div class="w-48 h-1 bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500 mt-2"></div>
+    <div class="flex flex-col gap-4 items-center">
+        <video src="/buntetassen.mp4" controls class="w-full max-w-lg rounded-lg shadow-lg"></video>
+        <a href="https://wa.me/?text=https://kaffee-gegen-rechts.org/buntetassen.mp4" target="_blank"
+            class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg text-center">
+            Als WhatsApp-Status teilen 🚀
+        </a>
+    </div>
 </body>
+
 </html>
